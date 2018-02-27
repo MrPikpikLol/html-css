@@ -6,10 +6,6 @@ html {
   color: #555;
   text-rendering: optimizeLegibility;
 }
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
 header {
   background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
   background-size: cover;
