@@ -1,17 +1,31 @@
+html {
+  background: #fff;
+  font-family: "Lato","Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #555;
+  text-rendering: optimizeLegibility;
+}
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
 header {
-  background: #ffd89b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100vh;
+  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 .salon-text-box {
-  position: absolute;
+  position: absolute; /* positionne l'élément suivant les coordonées top et left /// Voir PDF*/
   top: 50%;
   left: 50%;
+  transform: translate(-50%,-50%);
   width: 1140px;
-
+}
+h1 {
+  color: #0a3d62;
+}
+.Name {
+  color: #079992;
 }
