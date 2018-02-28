@@ -17,7 +17,9 @@ section {
   background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
 }
 footer {
-  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+  background-color: #2ECC71;
+  background-size: cover;
+  background-position: center;
 }
 .row {
   max-width: 1140px;
@@ -30,6 +32,11 @@ footer {
   transform: translate(-50%,-50%);
   width: 1140px;
   color: #34495e;
+}
+/*------------------------sections-----------------------*/
+.mid {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /*------------------------bouttons-----------------------*/
 .btn {
@@ -56,6 +63,11 @@ footer {
   border: 1px solid white;
   border-radius: 10px;
   background-color: pink;
+}
+.btn-top:hover {
+  background-color: #E08283;
+  border: 1px solid #D64541;
+  border-radius: 15px;
 }
 /*-----------------------Logo----------------------------*/
 .logo {
