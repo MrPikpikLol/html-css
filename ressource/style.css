@@ -1,8 +1,9 @@
+/*------------------------général---------------------*/
 html {
   background: #fff;
   font-family: "Lato","Arial", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 40px;
   color: #555;
   text-rendering: optimizeLegibility;
 }
@@ -12,6 +13,16 @@ header {
   background-position: center;
   height: 100vh;
 }
+section {
+  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+}
+footer {
+  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .salon-text-box {
   position: absolute; /* positionne l'élément suivant les coordonées top et left /// Voir PDF*/
   top: 50%;
@@ -20,13 +31,15 @@ header {
   width: 1140px;
   color: #34495e;
 }
+/*------------------------bouttons-----------------------*/
 .btn {
   padding: 10px, 30px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 .btn:hover {
-  border: 10px solid pink;
+  border: 1px solid pink;
   border-radius: 5px;
 }
 .btn-full {
@@ -39,3 +52,29 @@ header {
 .btn-ghost:hover {
   background-color: pink;
 }
+.btn-top {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: pink;
+}
+/*-----------------------Logo----------------------------*/
+.logo {
+  height: 120px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+.main-nav li{
+  display: inline-block;
+}
+.main-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 100%;
+}
+/*---------------------newsletter-------------------------*/
