@@ -7,6 +7,9 @@ html {
   color: #555;
   text-rendering: optimizeLegibility;
 }
+body {
+  background-color: #2ECC71;
+}
 header {
   background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
   background-size: cover;
@@ -40,7 +43,7 @@ footer {
 }
 /*------------------------bouttons-----------------------*/
 .btn {
-  padding: 10px, 30px;
+  padding: 10px 30px;
   border: 1px solid black;
   border-radius: 10px;
   text-decoration: none;
@@ -48,6 +51,7 @@ footer {
 .btn:hover {
   border: 1px solid pink;
   border-radius: 5px;
+  color: white;
 }
 .btn-full {
   color: white;
@@ -55,11 +59,18 @@ footer {
 }
 .btn-ghost {
   color: white;
+  background-color: pink;
+}
+.btn-full:hover {
+  background-color: pink;
+  text-decoration: none;
 }
 .btn-ghost:hover {
   background-color: pink;
+  text-decoration: none;
 }
 .btn-top {
+  padding: 10px 30px;
   border: 1px solid white;
   border-radius: 10px;
   background-color: pink;
@@ -78,15 +89,22 @@ footer {
 }
 .main-nav {
   list-style: none;
-  float: right;
-  margin-top: 15px;
 }
 .main-nav li{
   display: inline-block;
+  padding: 15px;
+  margin-top: 25px;
 }
 .main-nav li a {
   text-decoration: none;
   color: #fff;
   font-size: 100%;
+}
+/*-----------------------Sections---------------------------*/
+.photos {
+}
+.artiste {
+}
+.news {
 }
 /*---------------------newsletter-------------------------*/
