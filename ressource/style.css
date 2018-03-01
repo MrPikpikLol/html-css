@@ -1,105 +1,146 @@
 /*------------------------général---------------------*/
-html {
-  background: #fff;
-  font-family: "Lato","Arial", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
-  color: #555;
-  text-rendering: optimizeLegibility;
+html
+{
+    font-family: 'Lato','Arial', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+
+    color: #555;
+    background: #fff;
+
+    text-rendering: optimizeLegibility;
 }
-body {
-  background-color: white;
+body
+{
+    background-color: white;
 }
-header {
-  background-image: linear-gradient(rgba(232, 236, 242, 0.7), rgba(7, 7, 7, 0.7)), url(img/backimage.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+header
+{
+    height: 100vh;
+
+    background-image: linear-gradient(to bottom, transparent, #FBFCFF), url(img/backimage.jpg);
+    background-position: center;
+    background-size: cover;
 }
-section {
-  background-image: linear-gradient(rgba(232, 236, 242, 0.8), rgba(7, 7, 7, 0.8)), url(img/backimage.jpg);
+section
+{
+    background-image: white;
 }
-footer {
-  background-image: linear-gradient(rgba(232, 236, 242, 0.8), rgba(7, 7, 7, 0.8));
-  background-size: cover;
-  background-position: center;
+footer
+{
+    background-image: white;
+    background-position: center;
+    background-size: cover;
 }
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.salon-text-box {
-  position: absolute; /* positionne l'élément suivant les coordonées top et left /// Voir PDF*/
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 1140px;
-  color: #34495e;
+.salon-text-box
+{
+    position: absolute; /* positionne l'élément suivant les coordonées top et left /// Voir PDF*/
+    top: 50%;
+    left: 50%;
+
+    width: 1140px;
+
+    transform: translate(-50%,-50%);
+
+    color: #34495e;
 }
 /*------------------------sections-----------------------*/
-.mid {
-  max-width: 1140px;
-  margin: 0 auto;
+.mid
+{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /*------------------------bouttons-----------------------*/
-.btn {
-  padding: 10px 30px;
-  border: 1px solid black;
-  border-radius: 10px;
-  text-decoration: none;
+.btn
+{
+    padding: 10px 30px;
+
+    text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 10px;
 }
-.btn:hover {
-  border: 1px solid pink;
-  border-radius: 5px;
-  color: white;
+.btn:hover
+{
+    color: white;
+    border: 1px solid pink;
+    border-radius: 5px;
 }
-.btn-full {
-  color: white;
-  background-color: pink;
+.btn-full
+{
+    color: white;
+    background-color: pink;
 }
-.btn-ghost {
-  color: white;
-  background-color: pink;
+.btn-ghost
+{
+    color: white;
+    background-color: pink;
 }
-.btn-full:hover {
-  background-color: pink;
-  text-decoration: none;
+.btn-full:hover
+{
+    text-decoration: none;
+
+    background-color: pink;
 }
-.btn-ghost:hover {
-  background-color: pink;
-  text-decoration: none;
+.btn-ghost:hover
+{
+    text-decoration: none;
+
+    background-color: pink;
 }
-.btn-top {
-  padding: 10px 30px;
-  border: 1px solid white;
-  border-radius: 10px;
-  background-color: pink;
+.btn-top
+{
+    padding: 10px 30px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: pink;
 }
-.btn-top:hover {
-  background-color: #E08283;
-  border: 1px solid #D64541;
-  border-radius: 15px;
+.btn-top:hover
+{
+    border: 1px solid #d64541;
+    border-radius: 15px;
+    background-color: #e08283;
 }
 /*-----------------------Logo----------------------------*/
-.logo {
-  height: 120px;
-  float: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.logo
+{
+    float: left;
+
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.main-nav {
-  list-style: none;
+.main-nav
+{
+    list-style: none;
 }
-.main-nav li{
-  display: inline-block;
-  padding: 15px;
-  margin-top: 25px;
+.main-nav li
+{
+    display: inline-block;
+
+    margin-top: 25px;
+    padding: 15px;
 }
-.main-nav li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 100%;
+.main-nav li a
+{
+    font-size: 100%;
+
+    text-decoration: none;
+
+    color: #fff;
 }
 /*-----------------------Sections---------------------------*/
-
+/*----------------------Icons------------------------------*/
+.star {
+  font-size: 50px;
+}
+.boite {
+  text-align: center;
+}
 /*---------------------newsletter-------------------------*/
