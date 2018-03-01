@@ -8,19 +8,19 @@ html {
   text-rendering: optimizeLegibility;
 }
 body {
-  background-color: #2ECC71;
+  background-color: white;
 }
 header {
-  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+  background-image: linear-gradient(rgba(232, 236, 242, 0.7), rgba(7, 7, 7, 0.7)), url(img/backimage.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 section {
-  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/backimage.jpg);
+  background-image: linear-gradient(rgba(232, 236, 242, 0.8), rgba(7, 7, 7, 0.8)), url(img/backimage.jpg);
 }
 footer {
-  background-color: #2ECC71;
+  background-image: linear-gradient(rgba(232, 236, 242, 0.8), rgba(7, 7, 7, 0.8));
   background-size: cover;
   background-position: center;
 }
