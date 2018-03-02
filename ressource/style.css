@@ -89,32 +89,22 @@ h1
 .btn-full
 {
     color: white;
-    background-color: pink;
+    background-color: black;
 }
-.btn-ghost
-{
-    color: white;
-    background-color: pink;
-}
+
 .btn-full:hover
 {
+    border: 1px solid #d64541;
     text-decoration: none;
-
-    background-color: pink;
+    background-color: #e08283;
 }
-.btn-ghost:hover
-{
-    text-decoration: none;
 
-    background-color: pink;
-}
 .btn-top
 {
     padding: 10px 30px;
-
     border: 1px solid white;
     border-radius: 10px;
-    background-color: pink;
+    background-color: black;
 }
 .btn-top:hover
 {
