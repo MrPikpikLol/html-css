@@ -94,14 +94,16 @@ h1
 
 .btn-full:hover
 {
-    border: 1px solid #d64541;
     text-decoration: none;
+
+    border: 1px solid #d64541;
     background-color: #e08283;
 }
 
 .btn-top
 {
     padding: 10px 30px;
+
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
@@ -143,9 +145,10 @@ h1
 /*-----------------------Sections---------------------------*/
 section
 {
-    padding: 100px 0;
     font-family: 'Inconsolata','Arial', monospace;
     font-size: 120%;
+
+    padding: 100px 0;
 }
 h2
 {
