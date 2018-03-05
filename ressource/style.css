@@ -161,6 +161,7 @@ h2
 }
 p
 {
+    font-size: 150%;
     margin-bottom: 45px;
 
     text-align: center;
@@ -178,7 +179,7 @@ h2::after
 
     content: ' ';
 
-    background-color: black;
+    background-color: orange;
 }
 h3
 {
@@ -198,12 +199,13 @@ h3::after
 
     content: ' ';
 
-    background-color: black;
+    background-color: orange;
 }
 /*----------------------Icons------------------------------*/
 .etoile
 {
     font-size: 70px;
+    color: orange;
 }
 .star
 {
@@ -246,4 +248,86 @@ h3::after
     transform: scale(1);
 
     opacity: 1;
+}
+/*------------------------section mobile et infos--------------------------*/
+.col-mobile
+{
+  margin-top: 50px;
+}
+.col-mobile:first-child
+{
+  text-align: right;
+  padding-right: 3%;
+}
+.col-mobile:last-child
+{
+  padding-left: 3%;
+}
+.iphone
+{
+  width: 40%;
+}
+.service-mobile div
+{
+  margin-right: 25px;
+  float: left;
+  padding: 5px;
+  text-align: center;
+  border: 4px solid orange;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 150%;
+}
+.service-mobile
+{
+  margin-bottom: 50px;
+}
+.btn-app img
+{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.info-mobile
+{
+  text-align: left;
+}
+
+/**-------------------------Les différents salons--------------------------**/
+.col-photo
+{
+  text-align: center;
+}
+
+.col-photo img
+{
+  margin-bottom: 20px;
+  width: 75%;
+}
+.col-photo i
+{
+  padding-right: 10px;
+  color: orange;
+  float: left;
+  font-size: 25px;
+}
+.col-photo p
+{
+  text-align: left;
+  font-size: 20px;
+}
+.col-photo a
+{
+  color: orange;
+}
+.ville
+{
+  text-align: left;
+  text-transform: uppercase;
+}
+.cellule
+{
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
