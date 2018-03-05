@@ -117,8 +117,8 @@ h1
 /*-----------------------Logo----------------------------*/
 .logo
 {
-
     float: left;
+
     height: 120px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -162,6 +162,7 @@ h2
 p
 {
     font-size: 150%;
+
     margin-bottom: 45px;
 
     text-align: center;
@@ -205,6 +206,7 @@ h3::after
 .etoile
 {
     font-size: 70px;
+
     color: orange;
 }
 .star
@@ -252,82 +254,91 @@ h3::after
 /*------------------------section mobile et infos--------------------------*/
 .col-mobile
 {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 .col-mobile:first-child
 {
-  text-align: right;
-  padding-right: 3%;
+    padding-right: 3%;
+
+    text-align: right;
 }
 .col-mobile:last-child
 {
-  padding-left: 3%;
+    padding-left: 3%;
 }
 .iphone
 {
-  width: 40%;
+    width: 40%;
 }
 .service-mobile div
 {
-  margin-right: 25px;
-  float: left;
-  padding: 5px;
-  text-align: center;
-  border: 4px solid orange;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  font-size: 150%;
+    font-size: 150%;
+
+    float: left;
+
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    padding: 5px;
+
+    text-align: center;
+
+    border: 4px solid orange;
+    border-radius: 50%;
 }
 .service-mobile
 {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 .btn-app img
 {
-  height: 50px;
-  width: auto;
-  margin-right: 10px;
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
 }
 .info-mobile
 {
-  text-align: left;
+    text-align: left;
 }
 
 /**-------------------------Les différents salons--------------------------**/
 .col-photo
 {
-  text-align: center;
+    text-align: center;
 }
 
 .col-photo img
 {
-  margin-bottom: 20px;
-  width: 75%;
+    width: 75%;
+    margin-bottom: 20px;
 }
 .col-photo i
 {
-  padding-right: 10px;
-  color: orange;
-  float: left;
-  font-size: 25px;
+    font-size: 25px;
+
+    float: left;
+
+    padding-right: 10px;
+
+    color: orange;
 }
 .col-photo p
 {
-  text-align: left;
-  font-size: 20px;
+    font-size: 20px;
+
+    text-align: left;
 }
 .col-photo a
 {
-  color: orange;
+    color: orange;
 }
-.ville
+.ville p
 {
-  text-align: left;
-  text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
 }
 .cellule
 {
-  padding-top: 50px;
-  padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
