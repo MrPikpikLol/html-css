@@ -342,3 +342,28 @@ h3::after
     padding-top: 50px;
     padding-bottom: 100px;
 }
+/*-------------------------avits clients-----------------------------*/
+blockquote::before
+{
+  content:"\201C";
+  font-size: 500%;
+  display: block;
+}
+blockquote
+{
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+cite{
+  font-size: 90%;
+  margin-top: 15px;
+  display: block;
+
+}
+cite img{
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
