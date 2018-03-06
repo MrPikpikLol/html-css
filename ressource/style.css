@@ -397,3 +397,48 @@ cite img{
 .price-month{
   font-size: 80%;
 }
+/*------------------------------formulaire question---------------*/
+.contact-form{
+  margin: 0 auto;
+}
+input[type=text],[type=email], select, textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+textarea{
+  height: 100px;
+}
+input[type=submit],[type=reset]{
+  font-size: 35px;
+
+  padding: 10px 30px;
+
+  text-decoration: none;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+/*--------------footer-----------*/
+footer{
+  background-color: #333;
+  font-size: 80%;
+}
+.footer-nav{
+  list-style: none;
+  float: left;
+  color: orange;
+}
+.footer-social{
+  list-style: none;
+  float: right;
+  color: orange;
+}
+.footer-nav li, .footer-social li{
+  display: inline-block;
+  margin-top: 5px;
+}
